@@ -47,7 +47,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lab A - Tab ${_currentIndex + 1}'),
+        title: const Text('Lab 05: Exercise A'),
         actions: [
           // Quick helper button in the app bar to switch to Lab B view for screenshots
           IconButton(
